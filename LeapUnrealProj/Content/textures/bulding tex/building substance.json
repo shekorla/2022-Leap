@@ -1,0 +1,90 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "scene": {
+        "scale_factor": 23.2467098236084
+    },
+    "shaders": {
+        "Main shader": {
+            "displacementTessellation": {
+                "displacement": {
+                    "scale": 0,
+                    "source_channel": 0
+                },
+                "enable": true,
+                "tessellation": {
+                    "max_length": 64,
+                    "subdiv_count": 1,
+                    "subdiv_mode": 0
+                }
+            },
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                }
+            },
+            "shader": "pbr-metal-rough-with-alpha-blending",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "arches and coll": {
+            "shader": "Main shader"
+        },
+        "b doors": {
+            "shader": "Main shader"
+        },
+        "b toekick": {
+            "shader": "Main shader"
+        },
+        "building break": {
+            "shader": "Main shader"
+        },
+        "building_stone_detials_sg": {
+            "shader": "Main shader"
+        },
+        "gatepost_stone_sg": {
+            "shader": "Main shader"
+        },
+        "house_gutters_sg": {
+            "shader": "Main shader"
+        },
+        "house_roof_sg": {
+            "shader": "Main shader"
+        },
+        "house_walls_sg": {
+            "shader": "Main shader"
+        },
+        "inner areas": {
+            "shader": "Main shader"
+        },
+        "rope_sg": {
+            "shader": "Main shader"
+        },
+        "stairs": {
+            "shader": "Main shader"
+        },
+        "tarp_fabric_sg": {
+            "shader": "Main shader"
+        },
+        "tree_ring_sg": {
+            "shader": "Main shader"
+        },
+        "well_stone_sg": {
+            "shader": "Main shader"
+        },
+        "wood beams": {
+            "shader": "Main shader"
+        }
+    }
+}
